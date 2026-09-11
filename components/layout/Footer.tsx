@@ -60,7 +60,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="tel:+919560855448"
+                  href="tel:+919354264146"
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
                   <Phone size={16} />
@@ -74,7 +74,7 @@ export default function Footer() {
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
                   <Phone size={16} />
-                  Nitesh Verma: +91-9354264146
+                  Nitesh Verma: +91-9560855448
                 </a>
               </li>
             </ul>
