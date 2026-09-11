@@ -8,12 +8,17 @@
     --primary-900: #1e3a8a;
     --primary-700: #4338ca;
   }
-  
+
   body {
     @apply text-gray-800 bg-white;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold text-gray-900;
   }
 }
@@ -22,15 +27,15 @@
   .section-padding {
     @apply py-16 md:py-24;
   }
-  
+
   .container-custom {
     @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
   }
-  
+
   .btn-primary {
     @apply bg-primary-900 hover:bg-primary-800 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 inline-flex items-center gap-2 shadow-lg hover:shadow-xl;
   }
-  
+
   .btn-secondary {
     @apply border-2 border-primary-900 text-primary-900 hover:bg-primary-900 hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 inline-flex items-center gap-2;
   }
