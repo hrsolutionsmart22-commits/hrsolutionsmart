@@ -7,7 +7,7 @@ export default function Logo({ footer }: LogoProps) {
     <a href="/" className="flex items-center gap-3 group">
       <div className={`${footer ? 'w-10 h-10' : 'w-12 h-12'} flex-shrink-0`}>
         <img
-          src="/logo.svg"
+          src="./logo.svg"
           alt="HRSolutionsMart logo"
           className="w-full h-full object-contain"
         />
