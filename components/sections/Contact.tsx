@@ -89,7 +89,7 @@ export default function Contact() {
 
           <div className="mt-12 text-center">
             <p className="text-gray-200 text-lg italic">
-              &ldquo;Finding, Connecting, Building Success&rdquo;
+              Finding, Connecting, Building Success
             </p>
           </div>
         </div>
