@@ -1,79 +1,28 @@
-@echo off
-echo Creating HRSolutions Mart project structure...
-echo.
-
-:: Create root directory
-mkdir hrsolutions-mart
-cd hrsolutions-mart
-
-:: Create directory structure
-echo Creating directories...
-mkdir app
-mkdir components\layout
-mkdir components\sections
-mkdir components\ui
-mkdir public\images
-mkdir public\icons
-mkdir public\favicon
-
-:: Create config files
-echo Creating configuration files...
-type nul > package.json
-type nul > next.config.js
-type nul > tsconfig.json
-type nul > tailwind.config.ts
-type nul > postcss.config.js
-type nul > .eslintrc.json
-type nul > .gitignore
-type nul > .env.example
-type nul > README.md
-
-:: Create app files
-echo Creating app files...
-type nul > app\layout.tsx
-type nul > app\page.tsx
-type nul > app\globals.css
-
-:: Create layout components
-echo Creating layout components...
-type nul > components\layout\Header.tsx
-type nul > components\layout\Footer.tsx
-type nul > components\layout\Navigation.tsx
-
-:: Create section components
-echo Creating section components...
-type nul > components\sections\Hero.tsx
-type nul > components\sections\About.tsx
-type nul > components\sections\RecruitmentExpertise.tsx
-type nul > components\sections\HRSolutions.tsx
-type nul > components\sections\Approach.tsx
-type nul > components\sections\Process.tsx
-type nul > components\sections\WhyChooseUs.tsx
-type nul > components\sections\VisionMission.tsx
-type nul > components\sections\Contact.tsx
-
-:: Create UI components
-echo Creating UI components...
-type nul > components\ui\Logo.tsx
-type nul > components\ui\Button.tsx
-type nul > components\ui\Card.tsx
-type nul > components\ui\SectionHeading.tsx
-
-:: Create public assets
-echo Creating public assets...
-type nul > public\logo.svg
-type nul > public\favicon.ico
-
-echo.
-echo ================================================
-echo Project structure created successfully!
-echo ================================================
-echo.
-echo Next steps:
-echo 1. Copy and paste file contents from the provided code
-echo 2. Run: npm install
-echo 3. Run: npm run dev
-echo.
-echo Project location: %CD%
-echo.
-pause
+{
+  "name": "hrsolutions-mart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.2.0",
+    "lucide-react": "^0.376.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5",
+    "tailwindcss": "^3.4.3",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0"
+  }
+}
