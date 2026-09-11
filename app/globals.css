@@ -45,4 +45,30 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  .flash-contact {
+    animation: flash-contact 0.75s ease-in-out 4;
+    color: #fef3c7;
+    text-shadow: 0 0 18px rgba(250, 204, 21, 0.75);
+  }
+}
+
+@keyframes flash-contact {
+  0%,
+  100% {
+    transform: scale(1);
+    color: #ffffff;
+    background: transparent;
+  }
+  25%,
+  75% {
+    transform: scale(1.06);
+    color: #fef3c7;
+    background: rgba(250, 204, 21, 0.12);
+  }
+  50% {
+    transform: scale(1.02);
+    color: #fef3c7;
+    background: rgba(250, 204, 21, 0.22);
+  }
 }

@@ -46,8 +46,8 @@ export default function Footer() {
           </div>
 
           {/* Contact Information */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
+          <div id="contact">
+            <h3 className="text-lg font-semibold mb-4 text-white transition-all duration-300 flash-contact-target">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a 
