@@ -43,11 +43,11 @@ export default function Hero() {
           {/* Quick Contact */}
           <div className="flex flex-col sm:flex-row gap-4 text-sm">
             <a 
-              href="mailto:hrsolutionsmart22@gmail.com"
+              href="mailto:hr@hrsolutionsmart.com"
               className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
             >
               <Mail size={18} />
-              hrsolutionsmart22@gmail.com
+              hr@hrsolutionsmart.com
             </a>
             <a 
               href="tel:+919560855448"

@@ -51,11 +51,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a 
-                  href="mailto:hrsolutionsmart22@gmail.com"
+                  href="mailto:hr@hrsolutionsmart.com"
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
                   <Mail size={16} />
-                  hrsolutionsmart22@gmail.com
+                  hr@hrsolutionsmart.com
                 </a>
               </li>
               <li>
