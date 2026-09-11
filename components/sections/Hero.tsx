@@ -50,11 +50,11 @@ export default function Hero() {
               hr@hrsolutionsmart.com
             </a>
             <a 
-              href="tel:+919560855448"
+              href="tel:+919354264146"
               className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
             >
               <Phone size={18} />
-              +91-9560855448
+              +91-9354264146
             </a>
           </div>
         </div>
