@@ -25,7 +25,7 @@ export default function Contact() {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-white/20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                   <Mail size={24} />
                   Email Us
                 </h3>
@@ -39,7 +39,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                   <Phone size={24} />
                   Call Us
                 </h3>
