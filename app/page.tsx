@@ -8,7 +8,6 @@ import Approach from '@/components/sections/Approach'
 import Process from '@/components/sections/Process'
 import WhyChooseUs from '@/components/sections/WhyChooseUs'
 import VisionMission from '@/components/sections/VisionMission'
-import Contact from '@/components/sections/Contact'
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
         <Process />
         <WhyChooseUs />
         <VisionMission />
-        <Contact />
       </main>
       <Footer />
     </>
