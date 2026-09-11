@@ -12,7 +12,7 @@ HRSolutions Mart provides comprehensive recruitment and HR solutions across Indi
 - Sales & Business Development
 - Corporate & Support Functions
 - HR Operations Support
-- Employee Lifecycle Management
+- Employee Lifecycle Management Cycle
 
 ## Tech Stack
 
