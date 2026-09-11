@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#about" className="text-gray-300 hover:text-white transition-colors">
@@ -47,15 +47,15 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a 
-                  href="mailto:hr@hrsolutionsmart.com"
+                  href="mailto:hrsolutionsmart22@gmail.com"
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
                   <Mail size={16} />
-                  hr@hrsolutionsmart.com
+                  hrsolutionsmart22@gmail.com
                 </a>
               </li>
               <li>

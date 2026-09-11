@@ -30,10 +30,10 @@ export default function Contact() {
                   Email Us
                 </h3>
                 <a 
-                  href="mailto:hr@hrsolutionsmart.com"
+                  href="mailto:hrsolutionsmart22@gmail.com"
                   className="text-lg text-gray-100 hover:text-white transition-colors block mb-2"
                 >
-                  hr@hrsolutionsmart.com
+                  hrsolutionsmart22@gmail.com
                 </a>
                 <p className="text-sm text-gray-300">We typically respond within 24 hours</p>
               </div>
@@ -69,7 +69,7 @@ export default function Contact() {
             <div className="border-t border-white/20 pt-8 text-center">
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
-                  href="mailto:hr@hrsolutionsmart.com"
+                  href="mailto:hrsolutionsmart22@gmail.com"
                   className="bg-white text-primary-900 hover:bg-gray-100"
                 >
                   <MessageCircle size={20} />

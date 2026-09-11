@@ -18,7 +18,7 @@ export default function Hero() {
             Professional Recruitment & HR Solutions
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Building High-Performing Teams for Your Success
           </h1>
           
@@ -43,11 +43,11 @@ export default function Hero() {
           {/* Quick Contact */}
           <div className="flex flex-col sm:flex-row gap-4 text-sm">
             <a 
-              href="mailto:hr@hrsolutionsmart.com"
+              href="mailto:hrsolutionsmart22@gmail.com"
               className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
             >
               <Mail size={18} />
-              hr@hrsolutionsmart.com
+              hrsolutionsmart22@gmail.com
             </a>
             <a 
               href="tel:+919560855448"
