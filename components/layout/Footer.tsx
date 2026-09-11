@@ -63,7 +63,7 @@ export default function Footer() {
                   href="tel:+919354264146"
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
-                  <Phone size={16} />
+                  <Phone size={15.5} />
                   Nidhi Sharma: +91-9354264146
                   
                 </a>
@@ -73,7 +73,7 @@ export default function Footer() {
                   href="tel:+919354264146"
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                 >
-                  <Phone size={16} />
+                  <Phone size={15.5} />
                   Nitesh Verma: +91-9560855448
                 </a>
               </li>
