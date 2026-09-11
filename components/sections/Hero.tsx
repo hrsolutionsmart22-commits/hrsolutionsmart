@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Mail, Phone } from 'lucide-react'
 import Button from '../ui/Button'
 
 export default function Hero() {
@@ -41,6 +41,22 @@ export default function Hero() {
           </div>
 
           {/* Quick Contact */}
+          <div className="flex flex-col sm:flex-row gap-4 text-sm">
+            <a 
+              href="mailto:hr@hrsolutionsmart.com"
+              className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
+            >
+              <Mail size={18} />
+              hr@hrsolutionsmart.com
+            </a>
+            <a 
+              href="tel:+919354264146"
+              className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
+            >
+              <Phone size={18} />
+              +91-9354264146
+            </a>
+          </div>
         </div>
       </div>
 
